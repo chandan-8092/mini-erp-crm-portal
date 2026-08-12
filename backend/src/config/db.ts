@@ -253,10 +253,10 @@ function resolveIncludes(item: any, include: any): any {
 
 const dbStore: any = {
   user: new MemoryTable([
-    { id: 'usr-admin', email: 'admin@example.com', name: 'System Admin', passwordHash, role: 'ADMIN' },
-    { id: 'usr-sales', email: 'sales@example.com', name: 'Sarah Sales', passwordHash, role: 'SALES' },
-    { id: 'usr-warehouse', email: 'warehouse@example.com', name: 'Willy Warehouse', passwordHash, role: 'WAREHOUSE' },
-    { id: 'usr-accounts', email: 'accounts@example.com', name: 'Alex Accounts', passwordHash, role: 'ACCOUNTS' },
+    { id: 'usr-admin', email: 'admin@example.com', name: 'System Admin', passwordHash: '$2b$10$FnFoyHIeLjqEKGdIg.UGxuy.wUNPEgckMvxz1JB0ncbcE/xaE7C4C', role: 'ADMIN' },
+    { id: 'usr-sales', email: 'sales@example.com', name: 'Sarah Sales', passwordHash: '$2b$10$oya1tZiYK6z9jr9WZWdF0O.U4bS6s20axwCszCYjWXYB471RWxTNW', role: 'SALES' },
+    { id: 'usr-warehouse', email: 'warehouse@example.com', name: 'Willy Warehouse', passwordHash: '$2b$10$.xshoy2AdrGSbkrg4IsZwunAPGk8z4eM9ypV/JxX1L0ogSJOZJfXO', role: 'WAREHOUSE' },
+    { id: 'usr-accounts', email: 'accounts@example.com', name: 'Alex Accounts', passwordHash: '$2b$10$4isFnIJ0GrKuD8HRXm5o9ucOQWIFQLTLv5kqfc.TrF4gfQfWXal2G', role: 'ACCOUNTS' },
   ]),
   customer: new MemoryTable([
     {
