@@ -1,5 +1,8 @@
 # Mini ERP + CRM Operations Portal (Production-Quality Full Stack Case Study)
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-brightgreen?style=for-the-badge)](https://mini-erp-crm-portal-beta.vercel.app)
+[![API Status](https://img.shields.io/badge/API%20Status-Render-blue?style=for-the-badge)](https://mini-erp-crm-backend-fucz.onrender.com)
+
 A high-performance, secure, role-restricted **Mini ERP + CRM Operations Portal** built for a wholesale/distribution enterprise. It manages customer leads, product catalogs, physical inventory adjustments, and draft-to-execution sales workflows.
 
 ---
