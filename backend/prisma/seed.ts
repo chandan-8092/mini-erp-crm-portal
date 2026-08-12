@@ -204,7 +204,7 @@ async function main() {
 
   // 5. Create Sample Sales Challans
   // A confirmed challan
-  const challan1 = await prisma.salesChallan.create({
+  await prisma.salesChallan.create({
     data: {
       challanNumber: 'CH-2026-00001',
       customerId: customer1.id,
